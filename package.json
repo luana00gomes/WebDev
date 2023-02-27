@@ -1,0 +1,27 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "Web project for restaurants in 2023.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luana00gomes/WebDev.git"
+  },
+  "keywords": [
+    "webdev",
+    "node",
+    "js"
+  ],
+  "author": "luana-gomes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luana00gomes/WebDev/issues"
+  },
+  "homepage": "https://github.com/luana00gomes/WebDev#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
