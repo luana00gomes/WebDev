@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/luana00gomes/WebDev#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "jquery": "^3.6.3",
+    "pg": "^8.9.0"
   }
 }
