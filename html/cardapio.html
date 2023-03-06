@@ -18,14 +18,12 @@
     <script type="text/javascript" src="../js/functions.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">  
     </script>  
-    <script>
-        includeHTML()
-    </script>
     
     <script> 
         $(function(){
             $("#includedContent").load("navbar.html"); 
         });
+        
     </script> 
     
 </head>
@@ -33,14 +31,10 @@
   <body class="d-flex h-100 text-center text-bg-dark">
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
       <header class="mb-auto">
-        <div style="background-color: blue;">
+        <div>
           <h3 class="float-md-start mb-0 h3">Restaurante Sabor da Vovó</h3>
           <img class="image_full" src="../img/pexels-malidate-van-769289.jpg"> 
           <div id ="includedContent"></div>
-          <!--
-            YOU MUST VISIT
-            https://stackoverflow.com/questions/17636528/how-do-i-load-an-html-page-in-a-div-using-javascript
-          -->
         </div>
       </header>
 
